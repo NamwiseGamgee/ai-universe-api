@@ -8,6 +8,8 @@
     <title>AI Universe</title>
     <!-- tainwind css -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/styles.css">
     <!-- flowbite -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.css" rel="stylesheet" />
     <!-- tainwind config -->
@@ -30,14 +32,51 @@
         <h1 class="mb-8 text-primary_text text-5xl">AI Universe Hub</h1>
         <button class="px-7 py-6 bg-primary_btn rounded-2xl text-xl font-semibold text-white">Sort By Date</button>
     </header>
-    <main>
-        <section id="display-section" class="grid grid-cols-3 gap-5">
-            
-        </section>
-        <section class="text-center">
-            <button id="see-more-btn" onclick="onClick('load-all')" class="px-7 py-6 bg-primary_btn rounded-2xl text-xl font-semibold text-white">See More</button>
-        </section>
-    </main>
+    <section id="display-section" class="justify-items-center grid grid-cols-3 gap-5">
+
+    </section>
+    <section class="text-center">
+        <button id="see-more-btn" onclick="onClick('load-all')"
+            class="px-7 py-6 bg-primary_btn rounded-2xl text-xl font-semibold text-white">See More</button>
+    </section>
+    <!-- modal -->
+    <section id="modal-section">
+        <!-- <div>
+            <button class="bg-primary_btn p-4 font-semibold text-white rounded-lg">CLOSE</button>
+        </div> -->
+        <!-- <div class="p-6 flex gap-3">
+                <div class="bg-[#eb5757]">
+                    <p class="mb-3"></p>
+                    <div class="flex gap-3 mb-3">
+                        <div class="p-2 text-white font-semibold">
+                            <h2>$10/month Basic</h2>
+                        </div>
+                        <div class="p-2 text-white font-semibold">
+                            <h2>$50/month PRO</h2>
+                        </div>
+                        <div class="p-2 text-white font-semibold">
+                            <h2>Contact us Enterprise</h2>
+                        </div>
+                    </div>
+                    <div class="flex gap-5 justify-around">
+                        <div>
+                            <h1 class="mb-2">Features</h1>
+                            <ul>
+                            </ul>
+                        </div>
+                        <div>
+                            <h1 class="mb-2">Integrations</h1>
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-2 text-center">
+                    <img class="flex mx-auto mb-2" src="" alt="">
+                    <p></p>
+                </div>
+            </div> -->
+    </section>
     <script src="js/app.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.4/flowbite.min.js"></script>
 </body>
